@@ -1,0 +1,34 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.ap20.hana.ondemand.com",
+          "org": "Gallagher Group (NZ)_hana-dev",
+          "space": "Hana_Dev_Pricing",
+          "instance": "priceListSystem-db",
+          "key": "priceListSystem-db-key"
+        },
+        "kind": "hana",
+        "vcap": {
+          "name": "db"
+        }
+      },
+      "auth": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.ap20.hana.ondemand.com",
+          "org": "Gallagher Group (NZ)_hana-dev",
+          "space": "Hana_Dev_Pricing",
+          "instance": "priceListSystem-auth",
+          "key": "priceListSystem-auth-key"
+        },
+        "kind": "xsuaa-auth",
+        "vcap": {
+          "name": "auth"
+        }
+      }
+    }
+  }
+}
