@@ -1,0 +1,21 @@
+{
+  "manifest.json": 1772039527320,
+  "i18n/i18n.properties": 1769624102000,
+  "ext/controller/Main.controller.js": 1772401191299,
+  "Component.js": 1769624102000,
+  "ext/controller/Main-dbg.controller.js": 1772401191299,
+  "ext/controller/Main.controller.js.map": 1772657604352,
+  "Component-dbg.js": 1769624102000,
+  "Component.js.map": 1772657604345,
+  "Component-preload.js": 1772657604434,
+  "Component-preload.js.map": 1772657604435,
+  "ext/view/TradeScenarios.view.xml": 1770234678000,
+  "ext/view/TileContent.view.xml": 1770142404000,
+  "ext/view/TermsAndConditions.view.xml": 1770142360000,
+  "ext/view/PricingParameters.view.xml": 1770142296000,
+  "ext/view/PartNumbers.view.xml": 1770142286000,
+  "ext/view/Main.view.xml": 1770216374000,
+  "ext/view/ItemStructure.view.xml": 1770142250000,
+  "ext/view/ContactInfo.view.xml": 1770150254000,
+  "index.html": 1769624102000
+}
