@@ -5,11 +5,29 @@ _out
 connection.properties
 default-*.json
 .cdsrc-private.json
-gen/
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+gen/
 target/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+bin/
+
+# --- Environment & Secrets ---
+# NEVER commit your credentials or local secrets
+.env
+default-env.json
+default-services.json
+*cds-secrets.json
 
 # Web IDE, App Studio
+.vscode/
 .che/
 .gen/
 
@@ -17,24 +35,26 @@ target/
 *_mta_build_tmp
 *.mtar
 mta_archives/
+resources/
 
 # Other
+Thumbs.db
 .DS_Store
+.history/
 *.orig
 *.log
 
 *.iml
 *.flattened-pom.xml
 
-# IDEs
-# .vscode
-# .idea
-
 # @cap-js/cds-typer
 @cds-models
 
 # Ignore all zip files in router folder
 app/*.zip
+app/**/dist/*.zip
+webapp/test/flpSandbox.html
+sap-ui-cachebuster-info.json
 
 # Ignore any zip files anywhere
 *.zip
