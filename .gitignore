@@ -52,7 +52,7 @@ Thumbs.db
 
 # Ignore all zip files in router folder
 app/*.zip
-app/**/dist/*.zip
+app/**/dist/
 webapp/test/flpSandbox.html
 sap-ui-cachebuster-info.json
 
