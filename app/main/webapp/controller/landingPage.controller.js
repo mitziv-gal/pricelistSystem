@@ -102,9 +102,9 @@ sap.ui.define([
             let sRouteName = "";
 
             switch (sTargetIntent) {
-                /* case "Pricelist-display":
-                    sRouteName = "AppURL_PriceMaintain";
-                    break; */
+                case "PriceMaintain-display":
+                    sRouteName = "AppURL_PriceDisplay";
+                    break;
                 case "PriceMaintain-manage":
                     sRouteName = "AppURL_PriceMaintain";
                     break;

@@ -171,30 +171,18 @@
               "contextPath": "/PricelistData/items",
               "items/@UI.PresentationVariant": {
                 "tableSettings": {
-                  "type": "AnalyticalTable",
-                  "columnSettings": {
-                    "MainCategory": {
-                      "grouped": true
-                    },
-                    "Subcategory1": {
-                      "grouped": true
-                    },
-                    "Subcategory2": {
-                      "grouped": true
-                    },
-                    "Subcategory3": {
-                      "grouped": true
-                    },
-                    "Subcategory4": {
-                      "grouped": true
-                    },
-                    "Subcategory5": {
-                      "grouped": true
-                    }
+                    "type": "AnalyticalTable",
+                    "columnSettings": {
+                      "MainCategory": { "groupalled": true },
+                      "Subcategory1": { "groupalled": true },
+                      "Subcategory2": { "groupalled": true },
+                      "Subcategory3": { "groupalled": true },
+                      "Subcategory4": { "groupalled": true },
+                      "Subcategory5": { "groupalled": true }
                   },
-                  "creationMode": "Inline",
-                  "selectionMode": "Single",
-                  "enableExport": true
+                    "creationMode": "Inline",
+                    "selectionMode": "Single",
+                    "enableExport": true
                 }
               }
             }
